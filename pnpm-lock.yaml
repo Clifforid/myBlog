@@ -1,0 +1,857 @@
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+devDependencies:
+  vitepress:
+    specifier: 1.0.0-beta.3
+    version: 1.0.0-beta.3(@algolia/client-search@4.18.0)(search-insights@2.6.0)
+
+packages:
+
+  /@algolia/autocomplete-core@1.9.3(@algolia/client-search@4.18.0)(algoliasearch@4.18.0)(search-insights@2.6.0):
+    resolution: {integrity: sha1-HVZIKnaMM6rghoyFMwSeAuiWG+c=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@algolia/autocomplete-core/-/autocomplete-core-1.9.3.tgz}
+    dependencies:
+      '@algolia/autocomplete-plugin-algolia-insights': 1.9.3(@algolia/client-search@4.18.0)(algoliasearch@4.18.0)(search-insights@2.6.0)
+      '@algolia/autocomplete-shared': 1.9.3(@algolia/client-search@4.18.0)(algoliasearch@4.18.0)
+    transitivePeerDependencies:
+      - '@algolia/client-search'
+      - algoliasearch
+      - search-insights
+    dev: true
+
+  /@algolia/autocomplete-plugin-algolia-insights@1.9.3(@algolia/client-search@4.18.0)(algoliasearch@4.18.0)(search-insights@2.6.0):
+    resolution: {integrity: sha1-m3+GQQUsjq1tZsFiPURMvhnd5Yc=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@algolia/autocomplete-plugin-algolia-insights/-/autocomplete-plugin-algolia-insights-1.9.3.tgz}
+    peerDependencies:
+      search-insights: '>= 1 < 3'
+    dependencies:
+      '@algolia/autocomplete-shared': 1.9.3(@algolia/client-search@4.18.0)(algoliasearch@4.18.0)
+      search-insights: 2.6.0
+    transitivePeerDependencies:
+      - '@algolia/client-search'
+      - algoliasearch
+    dev: true
+
+  /@algolia/autocomplete-preset-algolia@1.9.3(@algolia/client-search@4.18.0)(algoliasearch@4.18.0):
+    resolution: {integrity: sha1-ZMykpDBM/K0s9zDoMGfgwbL0hdo=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@algolia/autocomplete-preset-algolia/-/autocomplete-preset-algolia-1.9.3.tgz}
+    peerDependencies:
+      '@algolia/client-search': '>= 4.9.1 < 6'
+      algoliasearch: '>= 4.9.1 < 6'
+    dependencies:
+      '@algolia/autocomplete-shared': 1.9.3(@algolia/client-search@4.18.0)(algoliasearch@4.18.0)
+      '@algolia/client-search': 4.18.0
+      algoliasearch: 4.18.0
+    dev: true
+
+  /@algolia/autocomplete-shared@1.9.3(@algolia/client-search@4.18.0)(algoliasearch@4.18.0):
+    resolution: {integrity: sha1-LiLoMNNvCpzywMzTx/bVlDW3ffo=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@algolia/autocomplete-shared/-/autocomplete-shared-1.9.3.tgz}
+    peerDependencies:
+      '@algolia/client-search': '>= 4.9.1 < 6'
+      algoliasearch: '>= 4.9.1 < 6'
+    dependencies:
+      '@algolia/client-search': 4.18.0
+      algoliasearch: 4.18.0
+    dev: true
+
+  /@algolia/cache-browser-local-storage@4.18.0:
+    resolution: {integrity: sha1-e8DJ2NNG7QE4T0zw369roprVwgw=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@algolia/cache-browser-local-storage/-/cache-browser-local-storage-4.18.0.tgz}
+    dependencies:
+      '@algolia/cache-common': 4.18.0
+    dev: true
+
+  /@algolia/cache-common@4.18.0:
+    resolution: {integrity: sha1-qsM6+sU+GRxZXRSku35tgarkg28=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@algolia/cache-common/-/cache-common-4.18.0.tgz}
+    dev: true
+
+  /@algolia/cache-in-memory@4.18.0:
+    resolution: {integrity: sha1-mkApTHNIGXJKG06Gr9Wn1L6bzC8=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@algolia/cache-in-memory/-/cache-in-memory-4.18.0.tgz}
+    dependencies:
+      '@algolia/cache-common': 4.18.0
+    dev: true
+
+  /@algolia/client-account@4.18.0:
+    resolution: {integrity: sha1-IC2eBrQeBuRcuRkQe+0KZRBog8w=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@algolia/client-account/-/client-account-4.18.0.tgz}
+    dependencies:
+      '@algolia/client-common': 4.18.0
+      '@algolia/client-search': 4.18.0
+      '@algolia/transporter': 4.18.0
+    dev: true
+
+  /@algolia/client-analytics@4.18.0:
+    resolution: {integrity: sha1-AwsCa9nBPLFUN+NeRFa94lsPEpg=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@algolia/client-analytics/-/client-analytics-4.18.0.tgz}
+    dependencies:
+      '@algolia/client-common': 4.18.0
+      '@algolia/client-search': 4.18.0
+      '@algolia/requester-common': 4.18.0
+      '@algolia/transporter': 4.18.0
+    dev: true
+
+  /@algolia/client-common@4.18.0:
+    resolution: {integrity: sha1-4IDDk+G+zdX18AiBXFfTJI06hIM=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@algolia/client-common/-/client-common-4.18.0.tgz}
+    dependencies:
+      '@algolia/requester-common': 4.18.0
+      '@algolia/transporter': 4.18.0
+    dev: true
+
+  /@algolia/client-personalization@4.18.0:
+    resolution: {integrity: sha1-kELOJ3MSAVitJeHfso1wbOu0jcI=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@algolia/client-personalization/-/client-personalization-4.18.0.tgz}
+    dependencies:
+      '@algolia/client-common': 4.18.0
+      '@algolia/requester-common': 4.18.0
+      '@algolia/transporter': 4.18.0
+    dev: true
+
+  /@algolia/client-search@4.18.0:
+    resolution: {integrity: sha1-g7N6rL4lT9eJIVT+eo8Dlb0BxoI=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@algolia/client-search/-/client-search-4.18.0.tgz}
+    dependencies:
+      '@algolia/client-common': 4.18.0
+      '@algolia/requester-common': 4.18.0
+      '@algolia/transporter': 4.18.0
+    dev: true
+
+  /@algolia/logger-common@4.18.0:
+    resolution: {integrity: sha1-DmoU6Lkfy3hhWVFp4cpXzyGfglU=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@algolia/logger-common/-/logger-common-4.18.0.tgz}
+    dev: true
+
+  /@algolia/logger-console@4.18.0:
+    resolution: {integrity: sha1-Njbks+IVTuLuLbLlvihXIDyfcEc=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@algolia/logger-console/-/logger-console-4.18.0.tgz}
+    dependencies:
+      '@algolia/logger-common': 4.18.0
+    dev: true
+
+  /@algolia/requester-browser-xhr@4.18.0:
+    resolution: {integrity: sha1-kKxXWUbgqxls3YdZOz/tVjoyqa8=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@algolia/requester-browser-xhr/-/requester-browser-xhr-4.18.0.tgz}
+    dependencies:
+      '@algolia/requester-common': 4.18.0
+    dev: true
+
+  /@algolia/requester-common@4.18.0:
+    resolution: {integrity: sha1-EphKpLEGef+oY1Ns7q4zzdDuTUI=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@algolia/requester-common/-/requester-common-4.18.0.tgz}
+    dev: true
+
+  /@algolia/requester-node-http@4.18.0:
+    resolution: {integrity: sha1-gEaxQceEzHd4vPUeiniIzORjdUs=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@algolia/requester-node-http/-/requester-node-http-4.18.0.tgz}
+    dependencies:
+      '@algolia/requester-common': 4.18.0
+    dev: true
+
+  /@algolia/transporter@4.18.0:
+    resolution: {integrity: sha1-GN5kXCD8VwMZayrU/sVemMMVodg=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@algolia/transporter/-/transporter-4.18.0.tgz}
+    dependencies:
+      '@algolia/cache-common': 4.18.0
+      '@algolia/logger-common': 4.18.0
+      '@algolia/requester-common': 4.18.0
+    dev: true
+
+  /@babel/helper-string-parser@7.22.5:
+    resolution: {integrity: sha1-Uz82RXolgUzx32SIUjrVR9eEqZ8=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@babel/helper-string-parser/-/helper-string-parser-7.22.5.tgz}
+    engines: {node: '>=6.9.0'}
+    dev: true
+
+  /@babel/helper-validator-identifier@7.22.5:
+    resolution: {integrity: sha1-lUTvajOZk0PIdA+lE1DzDuqq8ZM=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@babel/helper-validator-identifier/-/helper-validator-identifier-7.22.5.tgz}
+    engines: {node: '>=6.9.0'}
+    dev: true
+
+  /@babel/parser@7.22.5:
+    resolution: {integrity: sha1-ch/QQvPOGJYjjPGzQcd+t97n2+o=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@babel/parser/-/parser-7.22.5.tgz}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+    dependencies:
+      '@babel/types': 7.22.5
+    dev: true
+
+  /@babel/types@7.22.5:
+    resolution: {integrity: sha1-zZPuqrAliAo6R+yIH0sJalt4b74=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@babel/types/-/types-7.22.5.tgz}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/helper-string-parser': 7.22.5
+      '@babel/helper-validator-identifier': 7.22.5
+      to-fast-properties: 2.0.0
+    dev: true
+
+  /@docsearch/css@3.5.1:
+    resolution: {integrity: sha1-St+YhHNbv+piHDcW6A6pe6pBm3M=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@docsearch/css/-/css-3.5.1.tgz}
+    dev: true
+
+  /@docsearch/js@3.5.1(@algolia/client-search@4.18.0)(search-insights@2.6.0):
+    resolution: {integrity: sha1-bY3jtPz33pRGLA5ZLjM++p67ur0=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@docsearch/js/-/js-3.5.1.tgz}
+    dependencies:
+      '@docsearch/react': 3.5.1(@algolia/client-search@4.18.0)(search-insights@2.6.0)
+      preact: 10.15.1
+    transitivePeerDependencies:
+      - '@algolia/client-search'
+      - '@types/react'
+      - react
+      - react-dom
+      - search-insights
+    dev: true
+
+  /@docsearch/react@3.5.1(@algolia/client-search@4.18.0)(search-insights@2.6.0):
+    resolution: {integrity: sha1-NfSnX5SCEdi7aDDSFHxXX5aoUnQ=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@docsearch/react/-/react-3.5.1.tgz}
+    peerDependencies:
+      '@types/react': '>= 16.8.0 < 19.0.0'
+      react: '>= 16.8.0 < 19.0.0'
+      react-dom: '>= 16.8.0 < 19.0.0'
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      '@algolia/autocomplete-core': 1.9.3(@algolia/client-search@4.18.0)(algoliasearch@4.18.0)(search-insights@2.6.0)
+      '@algolia/autocomplete-preset-algolia': 1.9.3(@algolia/client-search@4.18.0)(algoliasearch@4.18.0)
+      '@docsearch/css': 3.5.1
+      algoliasearch: 4.18.0
+    transitivePeerDependencies:
+      - '@algolia/client-search'
+      - search-insights
+    dev: true
+
+  /@esbuild/android-arm64@0.17.19:
+    resolution: {integrity: sha1-uvt1I0pdPRtpDnwpVqWZNF6Eov0=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@esbuild/android-arm64/-/android-arm64-0.17.19.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/android-arm@0.17.19:
+    resolution: {integrity: sha1-WJj3gywimLx9CrU3AcV763TXi00=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@esbuild/android-arm/-/android-arm-0.17.19.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/android-x64@0.17.19:
+    resolution: {integrity: sha1-ZYNo75IGeGbZX7JocZ+Y82PROuE=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@esbuild/android-x64/-/android-x64-0.17.19.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/darwin-arm64@0.17.19:
+    resolution: {integrity: sha1-WEw0xZkbldTUjTMzALGk4v974nY=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@esbuild/darwin-arm64/-/darwin-arm64-0.17.19.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/darwin-x64@0.17.19:
+    resolution: {integrity: sha1-d1HSNt/mzhNszjQ9zmn1LXa39ss=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@esbuild/darwin-x64/-/darwin-x64-0.17.19.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/freebsd-arm64@0.17.19:
+    resolution: {integrity: sha1-ys0XFmXdHVAPRcFn1QxrflOdX9I=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@esbuild/freebsd-arm64/-/freebsd-arm64-0.17.19.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/freebsd-x64@0.17.19:
+    resolution: {integrity: sha1-B2lFbu4qCLjZJdfAC3noYcsxYuQ=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@esbuild/freebsd-x64/-/freebsd-x64-0.17.19.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-arm64@0.17.19:
+    resolution: {integrity: sha1-OOFi7Lcjhixr4cJ9Y4n0iWC2jts=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@esbuild/linux-arm64/-/linux-arm64-0.17.19.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-arm@0.17.19:
+    resolution: {integrity: sha1-GizTmcUAQBhKgFF0ptiQl9nRVZo=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@esbuild/linux-arm/-/linux-arm-0.17.19.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-ia32@0.17.19:
+    resolution: {integrity: sha1-4owlJmsDbOHKvKPDAVUiKEHcA1o=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@esbuild/linux-ia32/-/linux-ia32-0.17.19.tgz}
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-loong64@0.17.19:
+    resolution: {integrity: sha1-D4h7i7P5BljRoBFyg+VdvUydz3I=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@esbuild/linux-loong64/-/linux-loong64-0.17.19.tgz}
+    engines: {node: '>=12'}
+    cpu: [loong64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-mips64el@0.17.19:
+    resolution: {integrity: sha1-9dKguAR+qaXZ9ZKheOoFQFOnAok=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@esbuild/linux-mips64el/-/linux-mips64el-0.17.19.tgz}
+    engines: {node: '>=12'}
+    cpu: [mips64el]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-ppc64@0.17.19:
+    resolution: {integrity: sha1-h2WQ46y9n6f1eix9hvg3F9u6yMc=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@esbuild/linux-ppc64/-/linux-ppc64-0.17.19.tgz}
+    engines: {node: '>=12'}
+    cpu: [ppc64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-riscv64@0.17.19:
+    resolution: {integrity: sha1-f0k3PfRjzZ9B3DT5siYtdxaIvwk=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@esbuild/linux-riscv64/-/linux-riscv64-0.17.19.tgz}
+    engines: {node: '>=12'}
+    cpu: [riscv64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-s390x@0.17.19:
+    resolution: {integrity: sha1-4q/Rr8r2Ov4sfZzqzSjsV8d/iCk=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@esbuild/linux-s390x/-/linux-s390x-0.17.19.tgz}
+    engines: {node: '>=12'}
+    cpu: [s390x]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-x64@0.17.19:
+    resolution: {integrity: sha1-ig6XOLFjXwxTOJ5RWug4Jt7CKqQ=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@esbuild/linux-x64/-/linux-x64-0.17.19.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/netbsd-x64@0.17.19:
+    resolution: {integrity: sha1-wp+yRTxrfd75o14sGLN72hrlxGI=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@esbuild/netbsd-x64/-/netbsd-x64-0.17.19.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [netbsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/openbsd-x64@0.17.19:
+    resolution: {integrity: sha1-ledaORQDyxApcoDVJNZs4EySBpE=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@esbuild/openbsd-x64/-/openbsd-x64-0.17.19.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [openbsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/sunos-x64@0.17.19:
+    resolution: {integrity: sha1-ci6vBXuDwldZN9P/5a6xZUDacnM=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@esbuild/sunos-x64/-/sunos-x64-0.17.19.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [sunos]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/win32-arm64@0.17.19:
+    resolution: {integrity: sha1-mqncB0OZKIvc3Sg0Q+mutrlVK28=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@esbuild/win32-arm64/-/win32-arm64-0.17.19.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/win32-ia32@0.17.19:
+    resolution: {integrity: sha1-la1DxirWJIXiEPYpnHslceSNKwM=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@esbuild/win32-ia32/-/win32-ia32-0.17.19.tgz}
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/win32-x64@0.17.19:
+    resolution: {integrity: sha1-jPry/2A+mqu5EOnAVYwmzzJ0QGE=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@esbuild/win32-x64/-/win32-x64-0.17.19.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@jridgewell/sourcemap-codec@1.4.15:
+    resolution: {integrity: sha1-18bmdVx4VnqVHgSrUu8P0m3lnzI=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz}
+    dev: true
+
+  /@types/web-bluetooth@0.0.17:
+    resolution: {integrity: sha1-XJ88YX9kqXNde3KnzGceFm2QDEA=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@types/web-bluetooth/-/web-bluetooth-0.0.17.tgz}
+    dev: true
+
+  /@vitejs/plugin-vue@4.2.3(vite@4.3.9)(vue@3.3.4):
+    resolution: {integrity: sha1-7gtt/MYv5lNk5jlb84+iuhC7RLY=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@vitejs/plugin-vue/-/plugin-vue-4.2.3.tgz}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    peerDependencies:
+      vite: ^4.0.0
+      vue: ^3.2.25
+    dependencies:
+      vite: 4.3.9
+      vue: 3.3.4
+    dev: true
+
+  /@vue/compiler-core@3.3.4:
+    resolution: {integrity: sha1-f79ZHBwZ4azSj/0oRSbpi09YESg=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@vue/compiler-core/-/compiler-core-3.3.4.tgz}
+    dependencies:
+      '@babel/parser': 7.22.5
+      '@vue/shared': 3.3.4
+      estree-walker: 2.0.2
+      source-map-js: 1.0.2
+    dev: true
+
+  /@vue/compiler-dom@3.3.4:
+    resolution: {integrity: sha1-9W4JtfTX3DUPmBeE3pcT2CM0EVE=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@vue/compiler-dom/-/compiler-dom-3.3.4.tgz}
+    dependencies:
+      '@vue/compiler-core': 3.3.4
+      '@vue/shared': 3.3.4
+    dev: true
+
+  /@vue/compiler-sfc@3.3.4:
+    resolution: {integrity: sha1-sZ2ULHGTiJNTW0YibWAnIFkwAd8=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@vue/compiler-sfc/-/compiler-sfc-3.3.4.tgz}
+    dependencies:
+      '@babel/parser': 7.22.5
+      '@vue/compiler-core': 3.3.4
+      '@vue/compiler-dom': 3.3.4
+      '@vue/compiler-ssr': 3.3.4
+      '@vue/reactivity-transform': 3.3.4
+      '@vue/shared': 3.3.4
+      estree-walker: 2.0.2
+      magic-string: 0.30.0
+      postcss: 8.4.24
+      source-map-js: 1.0.2
+    dev: true
+
+  /@vue/compiler-ssr@3.3.4:
+    resolution: {integrity: sha1-nRN5q/+k8rDNhEF0zuxKlyETh3c=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@vue/compiler-ssr/-/compiler-ssr-3.3.4.tgz}
+    dependencies:
+      '@vue/compiler-dom': 3.3.4
+      '@vue/shared': 3.3.4
+    dev: true
+
+  /@vue/devtools-api@6.5.0:
+    resolution: {integrity: sha1-mLmUJe3ucLTJkmkmKPoeosHlfQc=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@vue/devtools-api/-/devtools-api-6.5.0.tgz}
+    dev: true
+
+  /@vue/reactivity-transform@3.3.4:
+    resolution: {integrity: sha1-UpCEduNNamXGwhzSci1B7YrlGSk=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@vue/reactivity-transform/-/reactivity-transform-3.3.4.tgz}
+    dependencies:
+      '@babel/parser': 7.22.5
+      '@vue/compiler-core': 3.3.4
+      '@vue/shared': 3.3.4
+      estree-walker: 2.0.2
+      magic-string: 0.30.0
+    dev: true
+
+  /@vue/reactivity@3.3.4:
+    resolution: {integrity: sha1-onopxs0X+rpaDpn7uG7pUWU+IlM=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@vue/reactivity/-/reactivity-3.3.4.tgz}
+    dependencies:
+      '@vue/shared': 3.3.4
+    dev: true
+
+  /@vue/runtime-core@3.3.4:
+    resolution: {integrity: sha1-S7M4cru1g3IbNA8wiIiDlBlZZ9E=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@vue/runtime-core/-/runtime-core-3.3.4.tgz}
+    dependencies:
+      '@vue/reactivity': 3.3.4
+      '@vue/shared': 3.3.4
+    dev: true
+
+  /@vue/runtime-dom@3.3.4:
+    resolution: {integrity: sha1-mS8ledDtbOlh9Hu+m/5LZ5ElFWY=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@vue/runtime-dom/-/runtime-dom-3.3.4.tgz}
+    dependencies:
+      '@vue/runtime-core': 3.3.4
+      '@vue/shared': 3.3.4
+      csstype: 3.1.2
+    dev: true
+
+  /@vue/server-renderer@3.3.4(vue@3.3.4):
+    resolution: {integrity: sha1-6kZZS3ldFTbym8WS3Q9mVffqTEw=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@vue/server-renderer/-/server-renderer-3.3.4.tgz}
+    peerDependencies:
+      vue: 3.3.4
+    dependencies:
+      '@vue/compiler-ssr': 3.3.4
+      '@vue/shared': 3.3.4
+      vue: 3.3.4
+    dev: true
+
+  /@vue/shared@3.3.4:
+    resolution: {integrity: sha1-Bug8UCf0ZO74YcMpvoFFS8i3B4A=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@vue/shared/-/shared-3.3.4.tgz}
+    dev: true
+
+  /@vueuse/core@10.2.0(vue@3.3.4):
+    resolution: {integrity: sha1-Zc9SIr8BeP9d3sIKET18psMEgeE=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@vueuse/core/-/core-10.2.0.tgz}
+    dependencies:
+      '@types/web-bluetooth': 0.0.17
+      '@vueuse/metadata': 10.2.0
+      '@vueuse/shared': 10.2.0(vue@3.3.4)
+      vue-demi: 0.14.5(vue@3.3.4)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: true
+
+  /@vueuse/integrations@10.2.0(focus-trap@7.4.3)(vue@3.3.4):
+    resolution: {integrity: sha1-nYinJoXCiKlcplhopByWmsMWdD0=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@vueuse/integrations/-/integrations-10.2.0.tgz}
+    peerDependencies:
+      async-validator: '*'
+      axios: '*'
+      change-case: '*'
+      drauu: '*'
+      focus-trap: '*'
+      fuse.js: '*'
+      idb-keyval: '*'
+      jwt-decode: '*'
+      nprogress: '*'
+      qrcode: '*'
+      sortablejs: '*'
+      universal-cookie: '*'
+    peerDependenciesMeta:
+      async-validator:
+        optional: true
+      axios:
+        optional: true
+      change-case:
+        optional: true
+      drauu:
+        optional: true
+      focus-trap:
+        optional: true
+      fuse.js:
+        optional: true
+      idb-keyval:
+        optional: true
+      jwt-decode:
+        optional: true
+      nprogress:
+        optional: true
+      qrcode:
+        optional: true
+      sortablejs:
+        optional: true
+      universal-cookie:
+        optional: true
+    dependencies:
+      '@vueuse/core': 10.2.0(vue@3.3.4)
+      '@vueuse/shared': 10.2.0(vue@3.3.4)
+      focus-trap: 7.4.3
+      vue-demi: 0.14.5(vue@3.3.4)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: true
+
+  /@vueuse/metadata@10.2.0:
+    resolution: {integrity: sha1-oCZCWXJ4a4P122WI2CUt9C4Hwkc=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@vueuse/metadata/-/metadata-10.2.0.tgz}
+    dev: true
+
+  /@vueuse/shared@10.2.0(vue@3.3.4):
+    resolution: {integrity: sha1-kwm44e1mDiRkNIIGXvDlnSI8P2k=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/@vueuse/shared/-/shared-10.2.0.tgz}
+    dependencies:
+      vue-demi: 0.14.5(vue@3.3.4)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: true
+
+  /algoliasearch@4.18.0:
+    resolution: {integrity: sha1-EYOtA4SlssFPOBw6Nh2mEazI7bM=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/algoliasearch/-/algoliasearch-4.18.0.tgz}
+    dependencies:
+      '@algolia/cache-browser-local-storage': 4.18.0
+      '@algolia/cache-common': 4.18.0
+      '@algolia/cache-in-memory': 4.18.0
+      '@algolia/client-account': 4.18.0
+      '@algolia/client-analytics': 4.18.0
+      '@algolia/client-common': 4.18.0
+      '@algolia/client-personalization': 4.18.0
+      '@algolia/client-search': 4.18.0
+      '@algolia/logger-common': 4.18.0
+      '@algolia/logger-console': 4.18.0
+      '@algolia/requester-browser-xhr': 4.18.0
+      '@algolia/requester-common': 4.18.0
+      '@algolia/requester-node-http': 4.18.0
+      '@algolia/transporter': 4.18.0
+    dev: true
+
+  /ansi-sequence-parser@1.1.0:
+    resolution: {integrity: sha1-TXkPMSNqwgNmsjs5FreJ4b3jmu0=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/ansi-sequence-parser/-/ansi-sequence-parser-1.1.0.tgz}
+    dev: true
+
+  /body-scroll-lock@4.0.0-beta.0:
+    resolution: {integrity: sha1-T3h4nRDmOIEVwEYM1tfU3Su8T34=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/body-scroll-lock/-/body-scroll-lock-4.0.0-beta.0.tgz}
+    dev: true
+
+  /csstype@3.1.2:
+    resolution: {integrity: sha1-HUv51XLxHBQDHwQ24cELwfVx9Qs=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/csstype/-/csstype-3.1.2.tgz}
+    dev: true
+
+  /esbuild@0.17.19:
+    resolution: {integrity: sha1-CHpyfpgpnwRio9C83ZzX/xAL2VU=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/esbuild/-/esbuild-0.17.19.tgz}
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    optionalDependencies:
+      '@esbuild/android-arm': 0.17.19
+      '@esbuild/android-arm64': 0.17.19
+      '@esbuild/android-x64': 0.17.19
+      '@esbuild/darwin-arm64': 0.17.19
+      '@esbuild/darwin-x64': 0.17.19
+      '@esbuild/freebsd-arm64': 0.17.19
+      '@esbuild/freebsd-x64': 0.17.19
+      '@esbuild/linux-arm': 0.17.19
+      '@esbuild/linux-arm64': 0.17.19
+      '@esbuild/linux-ia32': 0.17.19
+      '@esbuild/linux-loong64': 0.17.19
+      '@esbuild/linux-mips64el': 0.17.19
+      '@esbuild/linux-ppc64': 0.17.19
+      '@esbuild/linux-riscv64': 0.17.19
+      '@esbuild/linux-s390x': 0.17.19
+      '@esbuild/linux-x64': 0.17.19
+      '@esbuild/netbsd-x64': 0.17.19
+      '@esbuild/openbsd-x64': 0.17.19
+      '@esbuild/sunos-x64': 0.17.19
+      '@esbuild/win32-arm64': 0.17.19
+      '@esbuild/win32-ia32': 0.17.19
+      '@esbuild/win32-x64': 0.17.19
+    dev: true
+
+  /estree-walker@2.0.2:
+    resolution: {integrity: sha1-UvAQF4wqTBF6d1fP6UKtt9LaTKw=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/estree-walker/-/estree-walker-2.0.2.tgz}
+    dev: true
+
+  /focus-trap@7.4.3:
+    resolution: {integrity: sha1-o9rnPUTfNZ65K783sY4XPoE7FsU=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/focus-trap/-/focus-trap-7.4.3.tgz}
+    dependencies:
+      tabbable: 6.1.2
+    dev: true
+
+  /fsevents@2.3.2:
+    resolution: {integrity: sha1-ilJveLj99GI7cJ4Ll1xSwkwC/Ro=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/fsevents/-/fsevents-2.3.2.tgz}
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /jsonc-parser@3.2.0:
+    resolution: {integrity: sha1-Mf8/TCuXk/icZyEmJ8UcY5T4jnY=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/jsonc-parser/-/jsonc-parser-3.2.0.tgz}
+    dev: true
+
+  /magic-string@0.30.0:
+    resolution: {integrity: sha1-/VikdIxcRUczikJOkPpd0X9N5Sk=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/magic-string/-/magic-string-0.30.0.tgz}
+    engines: {node: '>=12'}
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.4.15
+    dev: true
+
+  /mark.js@8.11.1:
+    resolution: {integrity: sha1-GA8fnr74sOY45BZq1S24eb6y/8U=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/mark.js/-/mark.js-8.11.1.tgz}
+    dev: true
+
+  /minisearch@6.1.0:
+    resolution: {integrity: sha1-bnTnQ9vQ6I+lylL+8jkeCqcFUlI=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/minisearch/-/minisearch-6.1.0.tgz}
+    dev: true
+
+  /nanoid@3.3.6:
+    resolution: {integrity: sha1-RDOAyFbW6fmCQmfZYLQjatWD6kw=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/nanoid/-/nanoid-3.3.6.tgz}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+    dev: true
+
+  /picocolors@1.0.0:
+    resolution: {integrity: sha1-y1vcdP8/UYkiNur3nWi8RFZKuBw=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/picocolors/-/picocolors-1.0.0.tgz}
+    dev: true
+
+  /postcss@8.4.24:
+    resolution: {integrity: sha1-9xTbqbIoS+PMB9vS/FfuTcly0t8=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/postcss/-/postcss-8.4.24.tgz}
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: 3.3.6
+      picocolors: 1.0.0
+      source-map-js: 1.0.2
+    dev: true
+
+  /preact@10.15.1:
+    resolution: {integrity: sha1-od5gyfwMeaUi2WnGXcrdxdmU7t4=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/preact/-/preact-10.15.1.tgz}
+    dev: true
+
+  /rollup@3.25.2:
+    resolution: {integrity: sha1-NHnXKVWoPakBn5JtS6KF1jC3ZWs=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/rollup/-/rollup-3.25.2.tgz}
+    engines: {node: '>=14.18.0', npm: '>=8.0.0'}
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
+  /search-insights@2.6.0:
+    resolution: {integrity: sha1-u4dxpzuDxKDx8gfC9k/qAazT59A=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/search-insights/-/search-insights-2.6.0.tgz}
+    engines: {node: '>=8.16.0'}
+    dev: true
+
+  /shiki@0.14.3:
+    resolution: {integrity: sha1-0ak8RjlCva+5hm101hmkNH0Lv2Q=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/shiki/-/shiki-0.14.3.tgz}
+    dependencies:
+      ansi-sequence-parser: 1.1.0
+      jsonc-parser: 3.2.0
+      vscode-oniguruma: 1.7.0
+      vscode-textmate: 8.0.0
+    dev: true
+
+  /source-map-js@1.0.2:
+    resolution: {integrity: sha1-rbw2HZxi3zgBJefxYfccgm8eSQw=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/source-map-js/-/source-map-js-1.0.2.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: true
+
+  /tabbable@6.1.2:
+    resolution: {integrity: sha1-sNPKgdWC1IqA9xsmfRQ0sUaaNwM=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/tabbable/-/tabbable-6.1.2.tgz}
+    dev: true
+
+  /to-fast-properties@2.0.0:
+    resolution: {integrity: sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/to-fast-properties/-/to-fast-properties-2.0.0.tgz}
+    engines: {node: '>=4'}
+    dev: true
+
+  /vite@4.3.9:
+    resolution: {integrity: sha1-24liAMCxqhOzfNw1yeme4v3V+W0=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/vite/-/vite-4.3.9.tgz}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': '>= 14'
+      less: '*'
+      sass: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      less:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+    dependencies:
+      esbuild: 0.17.19
+      postcss: 8.4.24
+      rollup: 3.25.2
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
+  /vitepress@1.0.0-beta.3(@algolia/client-search@4.18.0)(search-insights@2.6.0):
+    resolution: {integrity: sha1-HAO9PP9Rk7iI0gIljR3Qpgz+Uus=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/vitepress/-/vitepress-1.0.0-beta.3.tgz}
+    hasBin: true
+    dependencies:
+      '@docsearch/css': 3.5.1
+      '@docsearch/js': 3.5.1(@algolia/client-search@4.18.0)(search-insights@2.6.0)
+      '@vitejs/plugin-vue': 4.2.3(vite@4.3.9)(vue@3.3.4)
+      '@vue/devtools-api': 6.5.0
+      '@vueuse/core': 10.2.0(vue@3.3.4)
+      '@vueuse/integrations': 10.2.0(focus-trap@7.4.3)(vue@3.3.4)
+      body-scroll-lock: 4.0.0-beta.0
+      focus-trap: 7.4.3
+      mark.js: 8.11.1
+      minisearch: 6.1.0
+      shiki: 0.14.3
+      vite: 4.3.9
+      vue: 3.3.4
+    transitivePeerDependencies:
+      - '@algolia/client-search'
+      - '@types/node'
+      - '@types/react'
+      - '@vue/composition-api'
+      - async-validator
+      - axios
+      - change-case
+      - drauu
+      - fuse.js
+      - idb-keyval
+      - jwt-decode
+      - less
+      - nprogress
+      - qrcode
+      - react
+      - react-dom
+      - sass
+      - search-insights
+      - sortablejs
+      - stylus
+      - sugarss
+      - terser
+      - universal-cookie
+    dev: true
+
+  /vscode-oniguruma@1.7.0:
+    resolution: {integrity: sha1-Q5v62P5xq9d5gzjRzT3FOovuqUs=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/vscode-oniguruma/-/vscode-oniguruma-1.7.0.tgz}
+    dev: true
+
+  /vscode-textmate@8.0.0:
+    resolution: {integrity: sha1-LHo7EWPvBEEJfgtdY4nNVQS1nl0=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/vscode-textmate/-/vscode-textmate-8.0.0.tgz}
+    dev: true
+
+  /vue-demi@0.14.5(vue@3.3.4):
+    resolution: {integrity: sha1-Z20EY9GhJm1atcupMuBD2PXy+9k=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/vue-demi/-/vue-demi-0.14.5.tgz}
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    peerDependencies:
+      '@vue/composition-api': ^1.0.0-rc.1
+      vue: ^3.0.0-0 || ^2.6.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+    dependencies:
+      vue: 3.3.4
+    dev: true
+
+  /vue@3.3.4:
+    resolution: {integrity: sha1-jtlF04c2Z98dD887JGOtoCj4i9Y=, tarball: https://artifactory.csc.com.cn:443/api/npm/csc-npm-release/vue/-/vue-3.3.4.tgz}
+    dependencies:
+      '@vue/compiler-dom': 3.3.4
+      '@vue/compiler-sfc': 3.3.4
+      '@vue/runtime-dom': 3.3.4
+      '@vue/server-renderer': 3.3.4(vue@3.3.4)
+      '@vue/shared': 3.3.4
+    dev: true
